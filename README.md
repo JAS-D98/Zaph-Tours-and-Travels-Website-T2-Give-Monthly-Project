@@ -1,6 +1,6 @@
+# T2G Month 1 Project
 
-T2G Month 1 Project
-Zaph Tours
+# Zaph Tours
 Zaph Tours is a premier travel company based in Kenya, specializing in providing the best safaris and adventure tours. With a strong reputation for delivering exceptional travel experiences, Zaph Tours offers a variety of packages that showcase the natural beauty and cultural richness of Kenya and other destinations.
 
 The company has approached you to design and develop a front-end website to enhance its online presence and attract more customers. The website should be visually appealing, user-friendly, and informative, providing potential travelers with all the necessary details to plan their perfect safari or adventure tour.
