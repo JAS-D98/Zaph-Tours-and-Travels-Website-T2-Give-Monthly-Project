@@ -1,6 +1,7 @@
 import React from 'react'
 import navLinks from '../../constants/Navbar.js'
 import { logo } from '../../assets/index.js'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -14,7 +15,7 @@ export default function Navbar() {
       <nav className='flex gap-7 items-center'>
          {navLinks.map((link) => (
            <p key={link.label} className='text-xl font-bold-400'>
-                <a href={link.href} className='hover:text-green'>{link.label}</a>
+                <Link to={link.href} className='hover:text-green'>{link.label}</Link>
             </p>
         ))}
       </nav>
