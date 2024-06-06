@@ -4,6 +4,8 @@ import Button from '../../components/button/Button.jsx'
 
 export default function LandingPage() {
   return (
+    <>
+    {/* Start of Hero Section */}
     <div className='flex items-center px-5 w-full min-h-[100vh]'>
       <div className='w-1/2 h-full flex flex-col gap-4'>
         <div>
@@ -17,5 +19,9 @@ export default function LandingPage() {
           <img src={hero} alt="image of a lady with a bag"/>
       </div>
     </div>
+    {/* End of Hero Section */}
+
+    
+    </>
   )
 }
