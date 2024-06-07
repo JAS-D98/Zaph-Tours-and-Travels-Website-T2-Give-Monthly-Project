@@ -1,6 +1,7 @@
 import React from 'react'
-import {hero, arrow, people, world1, world2, cameraLady, nature1, nature2 } from '../../assets/index.js'
+import {hero, arrow, people, world1, world2, cameraLady, nature1, nature2, mount1, mount2, mountKenya1, luwenzori1, lakenakuru, Tsavo, coast, coast1, nairobi } from '../../assets/index.js'
 import Button from '../../components/button/Button.jsx'
+import Featurecardbox from '../../components/featurecardbox/Featurecardbox.jsx'
 
 export default function LandingPage() {
   return (
@@ -25,7 +26,7 @@ export default function LandingPage() {
 
     {/* Start of about Us Section */}
     <div className='flex flex-col items-center justify-center px-10 mt-[5%] lg:mt-0 lg:w-[90%] mx-auto'>
-      <h1 className='text-xl text-center flex items-center gap-2'><div className='bg-green h-1 w-[6em]'/> <span> About Us </span> <div className='bg-green h-1 w-[6em]'/></h1>
+      <h1 className='text-xl text-center flex items-center gap-2'><div className='bg-green h-1 w-[6em] rounded'/> <span> About Us </span> <div className='bg-green h-1 w-[6em] rounded'/></h1>
       <div className='flex flex-col justify-between mt-10 md:flex-row items-center lg:items-start gap-3 lg:gap-0'>
         <div className='w-full lg:w-[40%]'>
           <h1 className='text-green capitalize text-md'>Read Our Amazing Story</h1>
@@ -49,6 +50,20 @@ export default function LandingPage() {
     </div>
     {/* End of about Us Section */}
     
+    {/* Start of featured destinations section */}
+    <div className='flex flex-col items-center justify-center px-10 mt-[5%] lg:w-[90%] mx-auto'>
+    <h1 className='text-xl text-center flex items-center gap-2'><div className='bg-green h-1 w-[6em] rounded'/> <span> Featured Destinations </span> <div className='bg-green h-1 w-[6em] rounded'/></h1>
+    <p className='mt-4'>Unlock the mysteries of areas we've visited</p>
+    <div className='w-full h-[110vh] rounded-md mt-8 grid grid-cols-3 gap-4 overflow-hidden'>
+        <Featurecardbox image={mountKenya1} alt='mount kenya' colspan="1" rowspan="2" place="Mount Kenya"/>
+        <Featurecardbox image={luwenzori1} alt='mount luwenzori' place="Mount Luwenzori"/>
+        <Featurecardbox image={lakenakuru} alt='mount kenya' place="Lake Nakuru"/>
+        <Featurecardbox image={nairobi} alt='mount kenya' colspan="1" place="Nairobi National park"/>
+        <Featurecardbox image={Tsavo} alt='image of a zebra drinking water' rowspan="2" place="Tsavo National Park"/>
+        <Featurecardbox image={coast1} alt='mount kenya' colspan="2" place="Coastal Kenya"/>
+    </div>
+    </div>
+    {/* End of featured destinations section */}
     </>
   )
 }
