@@ -8,6 +8,7 @@ import world2 from './world2.png'
 import cameraLady from './cameraLady.png'
 import nature1 from './nature1.png'
 import nature2 from './nature2.png'
+import nature3 from './nature3.png'
 import mount1 from './mount1.png'
 import mount2 from './mount2.png'
 import mountKenya1 from './mountKenya1.png'
@@ -18,9 +19,10 @@ import Tsavo from './Tsavo.png'
 import coast from './coast.png'
 import coast1 from './coast1.png'
 import nairobi from './nairobi.png'
-import Testimonial1 from './Testimonial3.png'
-import Testimonial2 from './Testimonial3.png'
+import Testimonial1 from './Testimonial1.png'
+import Testimonial2 from './Testimonial4.png'
 import Testimonial3 from './Testimonial3.png'
+import Mombasa from './Mombasa.png'
 
 export {
     logo,
@@ -33,6 +35,7 @@ export {
     cameraLady,
     nature1,
     nature2,
+    nature3,
     mount1,
     mount2,
     mountKenya1,
@@ -46,4 +49,5 @@ export {
     Testimonial1,
     Testimonial2,
     Testimonial3,
+    Mombasa,
 }

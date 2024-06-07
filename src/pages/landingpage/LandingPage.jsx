@@ -56,12 +56,12 @@ export default function LandingPage() {
     <h1 className='text-xl text-center flex items-center gap-2'><div className='bg-green h-1 w-[6em] rounded'/> <span> Featured Destinations </span> <div className='bg-green h-1 w-[6em] rounded'/></h1>
     <p className='mt-4 text-center'>Unlock the mysteries of areas we've visited. Embark <br />on an unforgettable journey</p>
     <div className='w-full h-[110vh] rounded-md mt-8 grid grid-cols-3 gap-4 overflow-hidden'>
-        <Featurecardbox image={mountKenya1} alt='mount kenya' colspan="1" rowspan="2" place="Mount Kenya"/>
-        <Featurecardbox image={luwenzori1} alt='mount luwenzori' place="Mount Luwenzori"/>
+        <Featurecardbox image={mountKenya1} alt='mount kenya' colspan="2" rowspan="2" place="Mount Kenya"/>
+        <Featurecardbox image={luwenzori1} alt='mount Ruwenzori' place="Mount Ruwenzori"/>
         <Featurecardbox image={lakenakuru} alt='mount kenya' place="Lake Nakuru"/>
         <Featurecardbox image={nairobi} alt='mount kenya' colspan="1" place="Nairobi National park"/>
         <Featurecardbox image={Tsavo} alt='image of a zebra drinking water' rowspan="2" place="Tsavo National Park"/>
-        <Featurecardbox image={coast1} alt='mount kenya' colspan="2" place="Coastal Kenya"/>
+        <Featurecardbox image={coast1} alt='mount kenya' colspan="3" place="Coastal Kenya"/>
     </div>
     </div>
     {/* End of featured destinations section */}
