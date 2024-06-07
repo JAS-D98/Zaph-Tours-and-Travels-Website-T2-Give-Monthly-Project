@@ -18,6 +18,9 @@ import Tsavo from './Tsavo.png'
 import coast from './coast.png'
 import coast1 from './coast1.png'
 import nairobi from './nairobi.png'
+import Testimonial1 from './Testimonial3.png'
+import Testimonial2 from './Testimonial3.png'
+import Testimonial3 from './Testimonial3.png'
 
 export {
     logo,
@@ -40,4 +43,7 @@ export {
     coast,
     coast1,
     nairobi,
+    Testimonial1,
+    Testimonial2,
+    Testimonial3,
 }

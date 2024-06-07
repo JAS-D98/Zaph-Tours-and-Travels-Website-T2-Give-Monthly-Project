@@ -2,6 +2,7 @@ import React from 'react'
 import {hero, arrow, people, world1, world2, cameraLady, nature1, nature2, mount1, mount2, mountKenya1, luwenzori1, lakenakuru, Tsavo, coast, coast1, nairobi } from '../../assets/index.js'
 import Button from '../../components/button/Button.jsx'
 import Featurecardbox from '../../components/featurecardbox/Featurecardbox.jsx'
+import Testimonialcard from '../../components/testimonialcard/Testimonialcard.jsx'
 
 export default function LandingPage() {
   return (
@@ -53,7 +54,7 @@ export default function LandingPage() {
     {/* Start of featured destinations section */}
     <div className='flex flex-col items-center justify-center px-10 mt-[5%] lg:w-[90%] mx-auto'>
     <h1 className='text-xl text-center flex items-center gap-2'><div className='bg-green h-1 w-[6em] rounded'/> <span> Featured Destinations </span> <div className='bg-green h-1 w-[6em] rounded'/></h1>
-    <p className='mt-4'>Unlock the mysteries of areas we've visited</p>
+    <p className='mt-4 text-center'>Unlock the mysteries of areas we've visited. Embark <br />on an unforgettable journey</p>
     <div className='w-full h-[110vh] rounded-md mt-8 grid grid-cols-3 gap-4 overflow-hidden'>
         <Featurecardbox image={mountKenya1} alt='mount kenya' colspan="1" rowspan="2" place="Mount Kenya"/>
         <Featurecardbox image={luwenzori1} alt='mount luwenzori' place="Mount Luwenzori"/>
@@ -64,6 +65,16 @@ export default function LandingPage() {
     </div>
     </div>
     {/* End of featured destinations section */}
+
+    {/* Start of testimonials section */}
+    <div className='flex flex-col items-center justify-center px-10 mt-[5%] lg:w-[90%] mx-auto'>
+    <h1 className='text-xl text-center flex items-center gap-2'><div className='bg-green h-1 w-[6em] rounded'/> <span> Testimonials </span> <div className='bg-green h-1 w-[6em] rounded'/></h1>
+    <p className='mt-4 text-center'>We take pride in providing exceptional travel experiences. Don't Just take our word for it but <br /> hear from our satisfied customers.</p>
+    <div className='flex flex-wrap items-center justify-center gap-6 mt-8'>
+    <Testimonialcard/>
+    </div>
+    </div>
+    {/* End of testimonials section */}
     </>
   )
 }
