@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div className='flex w-full px-5 py-1 justify-between items-center border-b-2 capitalize fixed z-2 bg-white shadow-md'>
+    <div className='flex w-full px-5 lg:px-24 py-1 justify-between items-center border-b-2 capitalize fixed z-2 bg-white shadow-md'>
       <div className='flex items-center'>
         <div className='w-[4em] overflow-hidden object-cover'>
           <img src={logo} alt="image of logo icon" width="100%" height="100%"/>
