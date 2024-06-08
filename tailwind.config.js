@@ -1,16 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors:{
-        green:'#8b9940',
-        default:'#232323',
-        teal:'#fff',
-      }
+      colors: {
+        green: "#8b9940",
+        default: "#232323",
+        teal: "#fff",
+      },
       // colors: {
       //   transparent: 'transparent',
       //   current: 'currentColor',
@@ -26,4 +23,4 @@ export default {
     },
   },
   plugins: [],
-}
+};
