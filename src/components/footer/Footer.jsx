@@ -5,7 +5,7 @@ import { footerlogo } from "../../assets";
 
 export default function Footer() {
   return (
-    <footer className="p-8 bg-footer text-white">
+    <footer className="p-8 bg-footer text-white mt-16">
     <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
       <div className="flex flex-col items-start">
         <a href="/"><img src={footerlogo} alt="logo" width={150} height={46} className="m-0"/></a>
