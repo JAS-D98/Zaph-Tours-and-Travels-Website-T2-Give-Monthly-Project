@@ -191,7 +191,7 @@ export default function LandingPage() {
           </p>
           <form
             action=""
-            className="mt-8 flex items-center justify-center gap-2"
+            className="mt-8 flex flex-col md:flex-row items-center justify-center gap-2"
           >
             <input
               type="text"

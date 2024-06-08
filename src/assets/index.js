@@ -27,7 +27,8 @@ import direction from "./direction.png";
 import Location from "./Location.gif";
 import Mail from "./Mail.gif";
 import Phone from "./Phone.gif";
-import map from './map.png'
+import map from './map.png';
+import footerlogo from './footerlogo.jpg';
 
 export {
   logo,
@@ -60,4 +61,5 @@ export {
   Mail,
   Phone,
   map,
+ footerlogo,
 };
