@@ -88,9 +88,10 @@ export default function ContactUsPage() {
                   <input
                     type="text"
                     name="name"
-                    id=""
+                    id="name"
                     placeholder="Enter Your Name Here"
                     className="w-full p-2 px-2 rounded-full  outline-none"
+                    required
                   />
                 </div>
                 <div className="flex justify-start gap-2 flex-col">
@@ -100,9 +101,10 @@ export default function ContactUsPage() {
                   <input
                     type="email"
                     name="email"
-                    id=""
+                    id="email"
                     placeholder="Enter Your Email Address"
                     className="w-full p-2 px-2 rounded-full  outline-none"
+                    required
                   />
                 </div>
                 <div className="flex justify-start gap-2 flex-col">
@@ -112,9 +114,10 @@ export default function ContactUsPage() {
                   <input
                     type="text"
                     name="subject"
-                    id=""
+                    id="subject"
                     placeholder="Enter the subject for your message"
                     className="w-full p-2 px-2 rounded-full  outline-none"
+                    required
                   />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -123,11 +126,12 @@ export default function ContactUsPage() {
                   </label>
                   <textarea
                     name="message"
-                    id=""
+                    id="message"
                     cols="30"
                     rows="3"
                     placeholder="Enter Your Message Here..."
                     className="  outline-none w-full rounded-md p-4"
+                    required
                   />
                 </div>
               </div>
