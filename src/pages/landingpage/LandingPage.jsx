@@ -12,7 +12,8 @@ export default function LandingPage() {
       <div className='w-full text-center items-center lg:items-start lg:w-1/2 lg:text-start h-full flex flex-col gap-4'>
         <div>
           <p className='text-green'>Best Safaris and Adventures</p>
-          <h1 className=' text-[2em] lg:text-[3em] font-bold capitalize'>It's fun out there, <span className='text-green'>let's go explore</span>. Discover New Places<span className='text-green'> With us</span>.</h1>
+          {/* <h1 className=' text-[2em] lg:text-[3em] font-bold capitalize'>It's fun out there, <span className='text-green'>let's go explore</span>. Discover New Places<span className='text-green'> With us</span>.</h1> */}
+          <h1 className=' text-[2em] lg:text-[3em] font-bold capitalize bg-gradient-to-r from-gray-900 to-green bg-clip-text text-transparent'>It's fun out there, <span>let's go explore</span>. Discover New Places<span> With us</span>.</h1>
           <p className=' text-md lg:text-xl'>Grab an opportunity to immerse yourself in new cultures. Embark on an unforgettable journey.</p>
         </div>
         <img src={people} alt="image of tourists" className='w-[25%]'/>
