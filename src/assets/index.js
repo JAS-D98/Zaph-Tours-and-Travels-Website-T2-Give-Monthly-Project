@@ -23,6 +23,7 @@ import Testimonial1 from './Testimonial1.png'
 import Testimonial2 from './Testimonial4.png'
 import Testimonial3 from './Testimonial3.png'
 import Mombasa from './Mombasa.png'
+import direction from './direction.png'
 
 export {
     logo,
@@ -50,4 +51,5 @@ export {
     Testimonial2,
     Testimonial3,
     Mombasa,
+    direction,
 }

@@ -4,6 +4,8 @@ import LandingPage from "./pages/landingpage/LandingPage";
 import TripTypesPage from "./pages/triptypespage/TripTypesPage"
 import ContactUs from "./pages/contactuspage/ContactUsPage"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./components/footer/Footer";
+import PageNotFound from "./pages/pagenotfound/PageNotFound";
 
 export default function App() {
   return (
@@ -15,7 +17,9 @@ export default function App() {
       <Route path="/destination" element={<DestinationPage/>}/>
       <Route path="/trips" element={<TripTypesPage/>}/>
       <Route path="/contact" element={<ContactUs/>}/>
+      <Route path="*" element={<PageNotFound/>}/>
     </Routes>
+    <Footer/>
     </BrowserRouter>
     </>
   )
