@@ -9,7 +9,8 @@ export default function Footer() {
     <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
       <div className="flex flex-col items-start">
         <a href="/"><img src={footerlogo} alt="logo" width={150} height={46} className="m-0"/></a>
-        <p className="mt-6 text-base leading-7 text-white-400 sm:max-w-sm">Best Safaris and Adventures</p>
+        <p className="text-xl font-bold mt-3">Zaph <span className="text-green">Tours</span></p>
+        <p className="mt-2 text-base leading-7 text-white-400 sm:max-w-sm">Best Safaris and Adventures</p>
         <div className="flex items-center gap-5 mt-5 ">
            {socialMedia.map((icon)=>(
             <div className="flex justify-center items-center w-12 h-12 bg-gradient-to-r from-green to-blue-600 rounded-full transition duration-150 ease-out hover:ease-in hover:scale-110 cursor-pointer">
