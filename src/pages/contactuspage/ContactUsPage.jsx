@@ -15,7 +15,7 @@ export default function ContactUsPage() {
           may need.
         </p>
 
-        <div className="w-full flex flex-col justify-center items-center">
+        <div className="w-full flex flex-col justify-center items-center mt-5">
           <p className="text-gray-500 text-xl my-4">Follow us on</p>
           <div className="flex lg:items-center justify-center flex-wrap gap-4 mt-6 flex-col md:flex-row items-start">
             {socialMedia.map((media, i) => {
@@ -37,7 +37,7 @@ export default function ContactUsPage() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4 px-5">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-4 px-5 lg:w-[80%] lg:mx-auto lg:justify-between">
         <div className="">
           <div className="flex justify-center flex-wrap gap-4 mt-6 flex-col lg:items-start">
             {ContactLordIcons.map((icon, i) => {
