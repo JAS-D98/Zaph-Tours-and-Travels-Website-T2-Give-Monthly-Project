@@ -78,8 +78,8 @@ export default function LandingPage() {
 
      {/* Start of newsletter section */}
      <div className='w-full min-h-[60vh] flex flex-col lg:flex-row items-center justify-center px-3 pb-8 lg:px-5 bg-gradient-to-r from-green to-blue-500 mt-8 flex-wrap'>
-      <div className='w-full lg:w-1/2 h-[40vh] text-center'>
-      <h1 className='text-5xl font-bold capitalize'>Subscribe to our newsletter <span className='text-slate-100'>and get instant updates</span>  at the comfort of your home.</h1>
+      <div className='w-full lg:w-1/2 lg:h-[40vh] text-center'>
+      <h1 className='text-3xl lg:text-5xl font-bold capitalize'>Subscribe to our newsletter <span className='text-slate-100'>and get instant updates</span>  at the comfort of your home.</h1>
       <p className='font-semibold text-xl mt-2'>Get weekly email updates on matters safaris and adventures</p>
       <form action="" className='mt-8 flex items-center justify-center gap-2'>
         <input type="text"  placeholder="Enter your email here" className='py-3 px-4 rounded-full text-xl text-green outline-none'/>

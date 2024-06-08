@@ -1,6 +1,7 @@
 import React from 'react'
 import DestinationCard from '../../components/destinationcard/DestinationCard'
 import Button from '../../components/button/Button'
+import OtherSites from '../../components/othersites/OtherSites'
 
 export default function DestinationPage() {
   return (
@@ -19,6 +20,10 @@ export default function DestinationPage() {
 
         <div className='flex flex-col lg:flex-row items-center justify-center flex-wrap gap-4 mt-8'>
           <DestinationCard/>
+        </div>
+        <h1 className='text-xl text-center flex items-center gap-2 my-8'><div className='bg-green h-1 w-[6em] rounded'/> <span> Other Tourism Sites We Visit </span> <div className='bg-green h-1 w-[6em] rounded'/></h1>
+        <div className='flex flex-col lg:flex-row items-center justify-center flex-wrap gap-4 mt-8'>
+          <OtherSites/>
         </div>
       </div>
       {/*End of Destination Card Gallery*/}

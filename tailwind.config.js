@@ -9,7 +9,7 @@ export default {
       colors:{
         green:'#8b9940',
         default:'#232323',
-        teal:'#89b9c7',
+        teal:'#fff',
       }
       // colors: {
       //   transparent: 'transparent',

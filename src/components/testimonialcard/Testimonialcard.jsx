@@ -6,10 +6,10 @@ export default function Testimonialcard() {
     <>
     {testimonials.map((testimonial)=>{
       return(
-        <div className='w-[20em] h-[24em] bg-green rounded-xl overflow-hidden shadow-xl'>
+        <div className='w-[20em] h-[24em] rounded-xl overflow-hidden shadow-xl'>
         <div className='w-full h-[25vh] overflow-hidden flex flex-col justify-end'>
           <img src={testimonial.touristSiteImg} alt={testimonial.touristAlt} />
-          <p className='absolute -mt-10 text-xl bg-slate-100 rounded-tr-2xl px-2'>{testimonial.touristSite}</p>
+          <p className='absolute -mt-10 text-xl bg-teal rounded-tr-2xl px-2'>{testimonial.touristSite}</p>
         </div>
         <div className='flex flex-col py-2 px-5'>
           <div className='flex items-end gap-4'>
@@ -18,7 +18,7 @@ export default function Testimonialcard() {
             </div>
             <h1 className='text-xl font-semibold'>{testimonial.testimonialName}</h1>
           </div>
-          <p className='text-white mt-4'>{testimonial.TestimonialText}</p>
+          <p className='mt-4'>{testimonial.TestimonialText}</p>
         </div>
         </div>
       )
