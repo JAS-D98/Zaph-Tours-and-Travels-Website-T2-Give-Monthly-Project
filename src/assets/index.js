@@ -27,6 +27,7 @@ import direction from "./direction.png";
 import Location from "./Location.gif";
 import Mail from "./Mail.gif";
 import Phone from "./Phone.gif";
+import map from './map.png'
 
 export {
   logo,
@@ -58,4 +59,5 @@ export {
   Location,
   Mail,
   Phone,
+  map,
 };

@@ -37,7 +37,7 @@ export default function ContactUsPage() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4 px-5 lg:w-[80%] lg:mx-auto lg:justify-between">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-4 px-5 lg:w-[80%] lg:mx-auto lg:justify-between hero-pattern rounded-md">
         <div className="">
           <div className="flex justify-center flex-wrap gap-4 mt-6 flex-col lg:items-start">
             {ContactLordIcons.map((icon, i) => {
@@ -50,16 +50,14 @@ export default function ContactUsPage() {
                     <img src={icon.src} alt={icon.alt} className="w-8" />
                   </div>
                   <div>
-                    <p className="text-md text-md">{icon.text}</p>
+                    <p className="text-md text-slate-100 text-md">{icon.text}</p>
                   </div>
                 </div>
               );
             })}
           </div>
-          <div className="mt-4">
-            <h1 className="my-3 text-center text-md">
-              Visit Us at LHJ Plaza, Murang'a
-            </h1>
+          <div className="mt-3">
+            <p className="font-semibold text-white text-center mb-3">Opening Hours: 8:00am -5:00pm</p>
             <p>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.919853868676!2d36.831271774131935!3d-1.2159624355515508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3d5df0378847%3A0xdb7d5c490bf805a0!2sProxy%20Auto%20Garage!5e0!3m2!1sen!2ske!4v1691576104864!5m2!1sen!2ske"
@@ -68,6 +66,7 @@ export default function ContactUsPage() {
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
+                className="rounded"
               ></iframe>
             </p>
           </div>
