@@ -22,9 +22,9 @@ export default function TripTypesPage() {
       {/* Start of Our Packages Section */}
       <div className="flex flex-col items-center px-5 lg:px-0 justify-center lg:w-[90%] mx-auto">
         <h1 className="text-xl text-center flex items-center gap-2 mt-8">
-          <div className="bg-green h-1 w-[6em] rounded" />{" "}
+          <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> Packages We Offer </span>{" "}
-          <div className="bg-green h-1 w-[6em] rounded" />
+          <div className="bg-green h-1 w-[3em] rounded" />
         </h1>
         <p className="mt-4 lg:text-xl text-gray-500 capitalize text-center">
           Easy Affordable Tourist Packages. There's one just for you
@@ -38,9 +38,9 @@ export default function TripTypesPage() {
       {/* Start of blog section */}
       <div className="flex flex-col items-center px-5 lh:px-0 justify-center lg:w-[90%] mx-auto">
         <h1 className="text-xl text-center flex items-center gap-2 my-8">
-          <div className="bg-green h-1 w-[6em] rounded" />{" "}
+          <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> Read our blogs </span>{" "}
-          <div className="bg-green h-1 w-[6em] rounded" />
+          <div className="bg-green h-1 w-[3em] rounded" />
         </h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit eos, libero, reiciendis aliquid amet earum culpa molestiae dignissimos incidunt corporis ipsam adipisci veniam sapiente officiis maiores sit doloribus. Magnam dolorum porro tenetur ipsum facilis, ducimus maxime a. Officia, ipsum.</p>
         <Button title="Read Our Blogs" icon={arrow}/>

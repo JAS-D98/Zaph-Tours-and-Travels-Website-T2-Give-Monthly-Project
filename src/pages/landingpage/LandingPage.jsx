@@ -55,9 +55,9 @@ export default function LandingPage() {
       {/* Start of about Us Section */}
       <div className="flex flex-col items-center justify-center px-10 mt-[5%] lg:mt-0 lg:w-[90%] mx-auto">
         <h1 className="text-xl text-center flex items-center gap-2">
-          <div className="bg-green h-1 w-[6em] rounded" />{" "}
+          <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> About Us </span>{" "}
-          <div className="bg-green h-1 w-[6em] rounded" />
+          <div className="bg-green h-1 w-[3em] rounded" />
         </h1>
         <div className="flex flex-col justify-between mt-10 md:flex-row items-center lg:items-start gap-3 lg:gap-0">
           <div className="w-full lg:w-[40%]">
@@ -113,9 +113,9 @@ export default function LandingPage() {
       {/* Start of featured destinations section */}
       <div className="flex flex-col items-center justify-center px-10 mt-[5%] lg:w-[90%] mx-auto">
         <h1 className="text-xl text-center flex items-center gap-2">
-          <div className="bg-green h-1 w-[6em] rounded" />{" "}
+          <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> Featured Destinations </span>{" "}
-          <div className="bg-green h-1 w-[6em] rounded" />
+          <div className="bg-green h-1 w-[3em] rounded" />
         </h1>
         <p className="mt-4 text-center">
           Unlock the mysteries of areas we've visited. Embark <br />
@@ -130,9 +130,9 @@ export default function LandingPage() {
       {/* Start of testimonials section */}
       <div className="flex flex-col items-center justify-center px-10 mt-[5%] lg:w-[90%] mx-auto">
         <h1 className="text-xl text-center flex items-center gap-2">
-          <div className="bg-green h-1 w-[6em] rounded" />{" "}
+          <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> Testimonials </span>{" "}
-          <div className="bg-green h-1 w-[6em] rounded" />
+          <div className="bg-green h-1 w-[3em] rounded" />
         </h1>
         <p className="mt-4 text-center">
           We take pride in providing exceptional travel experiences. Don't Just
