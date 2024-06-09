@@ -6,3 +6,17 @@
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../src/assets/map.png");
 }
+.hero-bg{
+  width: 50%;
+  height: 80vh;
+  background: linear-gradient(rgba(243, 241, 241, 0.827), rgba(0, 0, 0, 0.6)), url(./../src/assets/mountKenya1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width:63.25em) {
+  .hero-bg{
+    width: 90%;
+  }
+}

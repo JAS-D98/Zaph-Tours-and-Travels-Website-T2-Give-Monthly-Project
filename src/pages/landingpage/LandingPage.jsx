@@ -26,7 +26,7 @@ export default function LandingPage() {
   return (
     <>
       {/* Start of Hero Section */}
-      <div className="flex items-center flex-col-reverse px-5 lg:px-24 w-full min-h-[100vh] lg:flex-row">
+      <div className="flex items-center flex-col-reverse px-5 lg:px-24 w-full min-h-[100vh] lg:flex-row gap-2">
         <div className="w-full text-center items-center lg:items-start lg:w-1/2 lg:text-start h-full flex flex-col gap-4">
           <div>
             <p className="text-green">Best Safaris and Adventures</p>
@@ -46,8 +46,8 @@ export default function LandingPage() {
           </p>
           <Button title="Start Exploring" icon={arrow} />
         </div>
-        <div className="w-1/2 flex flex-col items-center justify-center">
-          <img src={hero} alt="image of a lady with a bag" />
+        <div className="w-full lg:w-1/2 flex flex-col items-center justify-center hero-bg rounded-xl">
+          {/* <img src={hero} alt="image of a lady with a bag" /> */}
         </div>
       </div>
       {/* End of Hero Section */}
