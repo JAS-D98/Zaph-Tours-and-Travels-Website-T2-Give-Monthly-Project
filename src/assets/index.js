@@ -38,6 +38,7 @@ import culinary from "./culinary.png";
 import beach from "./beach.png";
 import wellness from "./wellness.png";
 import luxurytours from "./luxurytours.png";
+import close from "./close.svg";
 
 
 
@@ -82,4 +83,5 @@ export {
   culinary,
   beach,
   wellness,
+  close,
 };
