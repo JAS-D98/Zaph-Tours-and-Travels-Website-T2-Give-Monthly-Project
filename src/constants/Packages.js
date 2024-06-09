@@ -1,24 +1,28 @@
 import {
-    Mombasa,
-    lakenakuru,
-    luwenzori,
-    mountKenya1,
-    nature2,
-    nature3,
+    adventure,
+    coast1,
+    culinary,
+    culture,
+    ecotours,
+    family,
+    honeymoon,
+    luxurytours,
+    wellness,
+    Tsavo,
   } from "../assets";
   
   export const packages = [
     {
-      image: mountKenya1,
+      image: honeymoon,
       type: "Honey Moon",
-      alt: "image of mount kenya",
+      alt: "image of a honey moon",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
       linkText: "Read More",
       price: "Kshs 5,000",
       oldPrice:"Kshs 5,500",
     },
     {
-      image: luwenzori,
+      image: family,
       type: "Family",
       alt: " image of aberdare range",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
@@ -27,7 +31,7 @@ import {
       oldPrice:"Kshs 4,000",
     },
     {
-      image: nature3,
+      image: adventure,
       type: "Adventure",
       alt: "Image of indian ocean",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
@@ -36,7 +40,7 @@ import {
       oldPrice:"Kshs 5,400",
     },
     {
-      image: nature2,
+      image: culture,
       type: "Cultural Tours",
       alt: "image of hot air ballon in Tsavo",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
@@ -45,7 +49,7 @@ import {
       oldPrice:"Kshs 2,600",
     },
     {
-      image: Mombasa,
+      image: Tsavo,
       type: "Wildlife Safaris",
       alt: "Image of Mombasa Island",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
@@ -54,7 +58,7 @@ import {
       oldPrice:"Kshs 2,000",
     },
     {
-      image: lakenakuru,
+      image: ecotours,
       type: "Eco-tours",
       alt: "image of lake nakuru ",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
@@ -63,7 +67,7 @@ import {
       oldPrice:"Kshs 4,500",
     },
     {
-      image: lakenakuru,
+      image: luxurytours,
       type: "Luxury vacations",
       alt: "image of lake nakuru ",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
@@ -72,7 +76,7 @@ import {
       oldPrice:"Kshs 4,200",
     },
     {
-      image: lakenakuru,
+      image: coast1,
       type: "Beach holidays",
       alt: "image of lake nakuru ",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
@@ -81,7 +85,7 @@ import {
       oldPrice:"Kshs 4,300",
     },
     {
-      image: lakenakuru,
+      image: wellness,
       type: "wellness retreats",
       alt: "image of lake nakuru ",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
@@ -90,7 +94,7 @@ import {
       oldPrice:"Kshs 4,400",
     },
     {
-      image: lakenakuru,
+      image: culinary,
       type: "Culinary tours",
       alt: "image of lake nakuru ",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",

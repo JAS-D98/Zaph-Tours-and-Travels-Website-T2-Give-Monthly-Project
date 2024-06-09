@@ -67,8 +67,8 @@ export const destinations = [
 export const sites = [
   {
     image: mountKenya1,
-    siteName: "Mount Kenya",
-    alt: "image of mount kenya",
+    siteName: "Meru National Park",
+    alt: "Meru National Park",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
     linkText: "Read More",
     pricePerGroup: "Kshs 5,000",
@@ -85,8 +85,8 @@ export const sites = [
   },
   {
     image: nature3,
-    siteName: "Indian Ocean",
-    alt: "Image of indian ocean",
+    siteName: "Lake Kisumu",
+    alt: "Lake Kisumu",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
     linkText: "Read More",
     pricePerGroup: "Kshs 5,000",
@@ -94,8 +94,8 @@ export const sites = [
   },
   {
     image: nature2,
-    siteName: "Tsavo National Park",
-    alt: "image of hot air ballon in Tsavo",
+    siteName: "Lake Naivasha:",
+    alt: "Lake Naivasha",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate explicabo obcaecati numquam quas!",
     linkText: "Read More",
     pricePerGroup: "Kshs 2,000",

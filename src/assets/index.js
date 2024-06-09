@@ -29,6 +29,17 @@ import Mail from "./Mail.gif";
 import Phone from "./Phone.gif";
 import map from "./map.png";
 import footerlogo from "./footerlogo.jpg";
+import honeymoon from "./honeymoon.png";
+import family from "./family.png";
+import adventure from "./adventure.png";
+import culture from "./culture.png";
+import ecotours from "./ecotours.png";
+import culinary from "./culinary.png";
+import beach from "./beach.png";
+import wellness from "./wellness.png";
+import luxurytours from "./luxurytours.png";
+
+
 
 export {
   logo,
@@ -62,4 +73,13 @@ export {
   Phone,
   map,
   footerlogo,
+  honeymoon,
+  family,
+  adventure,
+  culture,
+  luxurytours,
+  ecotours,
+  culinary,
+  beach,
+  wellness,
 };
