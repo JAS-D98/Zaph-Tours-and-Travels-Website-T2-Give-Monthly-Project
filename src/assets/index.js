@@ -3,13 +3,10 @@ import hero from "./Hero.png";
 import arrow from "../assets/icons/arrow.svg";
 import people from "./people.png";
 import world1 from "./world1.png";
-import suitcase from "./suitcase1.png";
 import world2 from "./world2.png";
 import cameraLady from "./cameraLady.png";
-import nature1 from "./nature1.png";
 import nature2 from "./nature2.png";
 import nature3 from "./nature3.png";
-import mount1 from "./mount1.png";
 import mount2 from "./mount2.png";
 import mountKenya1 from "./mountKenya1.png";
 import luwenzori from "./luwenzori.png";
@@ -49,12 +46,9 @@ export {
   people,
   world1,
   world2,
-  suitcase,
   cameraLady,
-  nature1,
   nature2,
   nature3,
-  mount1,
   mount2,
   mountKenya1,
   luwenzori,

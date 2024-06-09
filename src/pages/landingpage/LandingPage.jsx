@@ -1,22 +1,12 @@
 import React from "react";
 import {
-  hero,
   arrow,
   people,
   world1,
   world2,
   cameraLady,
-  nature1,
   nature2,
-  mount1,
-  mount2,
-  mountKenya1,
-  luwenzori1,
-  lakenakuru,
-  Tsavo,
-  coast,
-  coast1,
-  nairobi,
+  hero,
 } from "../../assets/index.js";
 import Button from "../../components/button/Button.jsx";
 import Featurecardbox from "../../components/featurecardbox/Featurecardbox.jsx";
@@ -26,7 +16,7 @@ export default function LandingPage() {
   return (
     <>
       {/* Start of Hero Section */}
-      <div className="flex items-center flex-col-reverse px-5 lg:px-24 w-full min-h-[100vh] lg:flex-row gap-2">
+      <div className="flex items-center justify-between flex-col-reverse px-5 lg:px-24 w-full min-h-[100vh] lg:flex-row gap-2">
         <div className="w-full text-center items-center lg:items-start lg:w-1/2 lg:text-start h-full flex flex-col gap-4">
           <div>
             <p className="text-green">Best Safaris and Adventures</p>
@@ -46,8 +36,8 @@ export default function LandingPage() {
           </p>
           <Button title="Start Exploring" icon={arrow} />
         </div>
-        <div className="w-full lg:w-1/2 flex flex-col items-center justify-center hero-bg rounded-xl">
-          {/* <img src={hero} alt="image of a lady with a bag" /> */}
+        <div className="mt-20 w-[40%] lg:mt-0 md:w-[40%] flex flex-col items-center justify-center hero-bg rounded-xl">
+          <img src={hero} alt="image of a lady with a bag" className="w-full h-full"/>
         </div>
       </div>
       {/* End of Hero Section */}
