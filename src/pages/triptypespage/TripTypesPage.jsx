@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./../../components/button/Button";
 import { logo } from './../../assets/index'
+import Packages from "../../components/packages/Packages";
 export default function TripTypesPage() {
   return (
     <div className="w-full min-h-[100vh]">
@@ -28,6 +29,9 @@ export default function TripTypesPage() {
         <p className="mt-4 lg:text-xl text-gray-500 capitalize text-center">
           Easy Affordable Tourist Packages. There's one just for you
         </p>
+        <div className="flex flex-col lg:flex-row items-center justify-center flex-wrap gap-4 mt-8">
+          <Packages/>
+        </div>
       </div>
       {/* End of Our Packages Section */}
 
