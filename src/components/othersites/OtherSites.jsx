@@ -8,7 +8,7 @@ export default function OtherSites() {
       {sites.map((site, i) => {
         return (
           <div
-            className="w-full lg:w-[20%] bg-teal pb-2 rounded-xl shadow-xl"
+            className="w-full lg:w-[20%] bg-teal pb-2 rounded-xl shadow-xl transition duration-200 ease-out hover:ease-in hover:scale-105"
             key={i}
           >
             <div className="w-full h-[30vh] overflow-hidden object-cover rounded-t-xl">

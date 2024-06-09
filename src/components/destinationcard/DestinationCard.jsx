@@ -8,7 +8,7 @@ export default function DestinationCard() {
       {destinations.map((destination, i) => {
         return (
           <div
-            className="w-full md:min-w-[30%] md:w-[30%] min-h-[60vh] bg-teal pb-2 rounded-xl shadow-xl"
+            className="w-full md:min-w-[30%] md:w-[30%] min-h-[60vh] bg-teal pb-2 rounded-xl shadow-xl transition duration-200 ease-out hover:ease-in hover:scale-105"
             key={i}
           >
             <div className="w-full h-[30vh] overflow-hidden object-cover rounded-t-xl">

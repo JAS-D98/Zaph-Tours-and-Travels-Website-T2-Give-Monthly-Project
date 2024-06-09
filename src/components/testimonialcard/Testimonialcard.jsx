@@ -6,7 +6,7 @@ export default function Testimonialcard() {
     <>
       {testimonials.map((testimonial, i) => {
         return (
-          <div className="w-[15em] lg:w-[20em] h-[24em] rounded-xl overflow-hidden shadow-xl" key={i}>
+          <div className="w-[15em] lg:w-[20em] h-[24em] rounded-xl overflow-hidden shadow-xl transition duration-200 ease-out hover:ease-in hover:scale-105" key={i}>
             <div className="w-full h-[25vh] overflow-hidden flex flex-col justify-end">
               <img
                 src={testimonial.touristSiteImg}
