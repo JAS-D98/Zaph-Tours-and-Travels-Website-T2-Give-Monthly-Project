@@ -138,7 +138,7 @@ export default function LandingPage() {
           We take pride in providing exceptional travel experiences. Don't Just
           take our word for it but <br /> hear from our satisfied customers.
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-6 mt-8">
+        <div className="flex flex-wrap items-center justify-center gap-6 mt-8 px-5">
           <Testimonialcard />
         </div>
       </div>
