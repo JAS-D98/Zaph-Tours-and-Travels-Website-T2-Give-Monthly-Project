@@ -23,7 +23,7 @@ export default function Packages() {
             />
           </div>
           <div className="px-2">
-            <p className="font-semibold">
+            <p>
               {pack.description}.{" "}
               <a href="" className="text-green">
                 Read More...
@@ -31,7 +31,7 @@ export default function Packages() {
             </p>
           </div>
           <div className="px-2 mt-2">
-            <p className="font-bold">Current Price: {pack.price} from <span className='line-through font-normal'>{pack.oldPrice}</span></p>
+            <p className="font-semibold">Current Price: {pack.price} from <span className='line-through font-normal'>{pack.oldPrice}</span></p>
             <hr />
           </div>
         </div>

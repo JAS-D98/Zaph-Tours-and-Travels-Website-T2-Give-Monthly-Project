@@ -31,7 +31,7 @@ export default function Featurecardbox() {
             </p>
           </div>
           <div className="px-2 mt-2">
-            <p className="font-bold">Trip Price: {feature.price}</p>
+            <p className="font-semibold">Trip Price: {feature.price}</p>
             <hr />
           </div>
         </div>

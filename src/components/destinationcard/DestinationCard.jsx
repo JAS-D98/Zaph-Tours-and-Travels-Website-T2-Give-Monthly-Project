@@ -24,7 +24,7 @@ export default function DestinationCard() {
               />
             </div>
             <div className="px-2">
-              <p className="font-semibold">
+              <p>
                 {destination.description}.{" "}
                 <a href="" className="text-green">
                   Read More...
@@ -32,7 +32,7 @@ export default function DestinationCard() {
               </p>
             </div>
             <div className="px-2 mt-2">
-              <p className="font-bold">Trip Prices</p>
+              <p className="font-semibold">Trip Prices</p>
               <hr />
               <div className="flex flex-col items-left text-left justify-start gap-2">
                 <p className="flex items-center gap-2 font-semibold text-left">
