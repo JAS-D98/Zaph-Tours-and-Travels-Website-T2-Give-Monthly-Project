@@ -121,42 +121,8 @@ export default function LandingPage() {
           Unlock the mysteries of areas we've visited. Embark <br />
           on an unforgettable journey
         </p>
-        <div className="w-full h-[110vh] rounded-md mt-8 grid grid-cols-3 gap-4 overflow-hidden">
-          <Featurecardbox
-            image={mountKenya1}
-            alt="mount kenya"
-            colspan="2"
-            rowspan="2"
-            place="Mount Kenya"
-          />
-          <Featurecardbox
-            image={luwenzori1}
-            alt="mount Ruwenzori"
-            place="Mount Ruwenzori"
-          />
-          <Featurecardbox
-            image={lakenakuru}
-            alt="mount kenya"
-            place="Lake Nakuru"
-          />
-          <Featurecardbox
-            image={nairobi}
-            alt="mount kenya"
-            colspan="1"
-            place="Nairobi National park"
-          />
-          <Featurecardbox
-            image={Tsavo}
-            alt="image of a zebra drinking water"
-            rowspan="2"
-            place="Tsavo National Park"
-          />
-          <Featurecardbox
-            image={coast1}
-            alt="mount kenya"
-            colspan="3"
-            place="Coastal Kenya"
-          />
+        <div className="flex flex-col lg:flex-row items-center justify-center flex-wrap gap-4 mt-8">
+              <Featurecardbox/>
         </div>
       </div>
       {/* End of featured destinations section */}

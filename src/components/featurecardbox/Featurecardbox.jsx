@@ -1,32 +1,42 @@
-import React from "react";
+import React from 'react'
+import { features } from '../../constants/Features';
 
-export default function Featurecardbox({
-  image,
-  alt,
-  colspan,
-  rowspan,
-  height,
-  place,
-}) {
+export default function Featurecardbox() {
   return (
-    <div
-      className={`bg-slate-100 overflow-hidden object-cover col-span-${colspan} row-span-${rowspan} max-h-[${height}] flex flex-col items-center`}
-    >
-      <p className="absolute font-semibold text-2xl bg-slate-100 px-2 py-1 rounded-br-2xl rounded-bl-2xl">
-        {place}
-      </p>
-      <div className="absolute w-[25%] h-12 text-center mt-[8%] flex flex-col justify-end items-baseline">
-        <p className="text-bold text-1.3xl font-semibold text-white bg-black">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, facere?
-        </p>
-      </div>
-      <img
-        src={image}
-        alt={alt}
-        width="100%"
-        height="100%"
-        className="w-full h-full"
-      />
-    </div>
-  );
+    <>
+    {features.map((feature, i) => {
+      return (
+        <div
+          className="w-full lg:w-[30%] h-[60vh] bg-teal pb-2 rounded-xl shadow-xl"
+          key={i}
+        >
+          <div className="w-full h-[30vh] overflow-hidden object-cover rounded-t-xl">
+            <p className="absolute bg-teal px-2 py-1 rounded-br-2xl font-semibold">
+              {feature.place}
+            </p>
+            <img
+              src={feature.image}
+              alt={feature.alt}
+              width="100%"
+              height="100%"
+              className="w-full h-full"
+            />
+          </div>
+          <div className="px-2">
+            <p>
+              {feature.description}.{" "}
+              <a href="" className="text-green">
+                Read More...
+              </a>
+            </p>
+          </div>
+          <div className="px-2 mt-2">
+            <p className="font-bold">Trip Price: {feature.price}</p>
+            <hr />
+          </div>
+        </div>
+      );
+    })}
+  </>
+  )
 }
