@@ -23,7 +23,7 @@ export default function DestinationPage() {
 
       {/*Start of Destination Card Gallery*/}
       <div className="flex flex-col items-center px-5 lh:px-0 justify-center lg:w-[90%] mx-auto">
-        <h1 className="text-xl text-center flex items-center gap-2">
+        <h1 className="text-xl text-center flex items-center gap-2 dark:text-slate-100">
           <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> Most Visited Areas </span>{" "}
           <div className="bg-green h-1 w-[3em] rounded" />
@@ -32,7 +32,7 @@ export default function DestinationPage() {
         <div className="flex flex-col md:flex-row items-center justify-center flex-wrap gap-4 mt-8">
           <DestinationCard />
         </div>
-        <h1 className="text-xl text-center flex items-center gap-2 my-8">
+        <h1 className="text-xl text-center flex items-center gap-2 my-8 dark:text-slate-100">
           <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> Other Tourism Sites We Visit </span>{" "}
           <div className="bg-green h-1 w-[3em] rounded" />

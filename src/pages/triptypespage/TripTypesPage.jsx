@@ -21,7 +21,7 @@ export default function TripTypesPage() {
 
       {/* Start of Our Packages Section */}
       <div className="flex flex-col items-center px-5 lg:px-0 justify-center lg:w-[90%] mx-auto">
-        <h1 className="text-xl text-center flex items-center gap-2 mt-8">
+        <h1 className="text-xl text-center flex items-center gap-2 mt-8 dark:text-slate-100">
           <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> Packages We Offer </span>{" "}
           <div className="bg-green h-1 w-[3em] rounded" />
@@ -36,8 +36,8 @@ export default function TripTypesPage() {
       {/* End of Our Packages Section */}
 
       {/* Start of blog section */}
-      <div className="flex flex-col items-center px-5 lh:px-0 justify-center lg:w-[90%] mx-auto">
-        <h1 className="text-xl text-center flex items-center gap-2 my-8">
+      <div className="flex flex-col items-center px-5 lh:px-0 justify-center lg:w-[90%] mx-auto dark:text-slate-500">
+        <h1 className="text-xl text-center flex items-center gap-2 my-8 dark:text-slate-100">
           <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> Read our blogs </span>{" "}
           <div className="bg-green h-1 w-[3em] rounded" />

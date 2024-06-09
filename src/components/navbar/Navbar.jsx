@@ -40,7 +40,7 @@ export default function Navbar() {
       <img src={isOpen ? close : menu} alt="navigation icons" onClick={toggleNavbar} className="w-7 cursor-pointer"/>
       </div>
 
-      <nav className={`lg:hidden ${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-white shadow-md px-5`}>
+      <nav className={`lg:hidden ${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-white dark:bg-black dark:text-slate-400 shadow-md px-5`}>
         {navLinks.map((link) => (
           <p key={link.label} className="text-xl font-bold-400 p-4 border-b">
             <Link to={link.href} className="hover:text-green p-3" onClick={toggleNavbar}>

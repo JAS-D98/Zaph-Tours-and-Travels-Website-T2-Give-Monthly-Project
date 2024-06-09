@@ -8,11 +8,11 @@ export default function OtherSites() {
       {sites.map((site, i) => {
         return (
           <div
-            className="w-full lg:w-[20%] bg-teal pb-2 rounded-xl shadow-xl transition duration-200 ease-out hover:ease-in hover:scale-105"
+            className="w-full lg:w-[20%] bg-teal pb-2 rounded-xl shadow-xl transition duration-200 ease-out hover:ease-in hover:scale-105 dark:bg-black dark:text-slate-500 dark:shadow-slate-900"
             key={i}
           >
             <div className="w-full h-[30vh] overflow-hidden object-cover rounded-t-xl">
-              <p className="absolute bg-teal px-2 py-1 rounded-br-2xl font-semibold">
+              <p className="absolute bg-teal px-2 py-1 rounded-br-2xl dark:rounded-tl-xl font-semibold dark:text-black">
                 {site.siteName}
               </p>
               <img
