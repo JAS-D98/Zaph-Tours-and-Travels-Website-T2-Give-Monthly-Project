@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./../../components/button/Button";
-import { logo, smoke } from './../../assets/index'
+import { logo } from './../../assets/index'
 export default function TripTypesPage() {
   return (
     <div className="w-full min-h-[100vh]">

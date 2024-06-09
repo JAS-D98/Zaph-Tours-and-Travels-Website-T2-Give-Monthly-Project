@@ -29,7 +29,6 @@ import Mail from "./Mail.gif";
 import Phone from "./Phone.gif";
 import map from "./map.png";
 import footerlogo from "./footerlogo.jpg";
-import smoke from "./smoke.png";
 
 export {
   logo,
@@ -63,5 +62,4 @@ export {
   Phone,
   map,
   footerlogo,
-  smoke,
 };
