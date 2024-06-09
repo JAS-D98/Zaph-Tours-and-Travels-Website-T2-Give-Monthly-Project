@@ -61,10 +61,10 @@ export default function LandingPage() {
         </h1>
         <div className="flex flex-col justify-between mt-10 md:flex-row items-center lg:items-start gap-3 lg:gap-0">
           <div className="w-full lg:w-[40%]">
-            <h1 className="text-green capitalize text-md">
+            <h1 className="text-green capitalize text-md text-center md:text-left">
               Read Our Amazing Story
             </h1>
-            <p className="leading-1 text-xl mt-6">
+            <p className="leading-1 text-xl mt-6 ">
               We are more than just a travel company; We are your gateway to
               extarordinary experiences and adventures. With a passion for
               exploration, our dedicated team curates journeys that redefine
