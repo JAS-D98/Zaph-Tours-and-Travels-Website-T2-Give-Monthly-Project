@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import navLinks from "../../constants/Navbar.js";
 import { logo } from "../../assets/index.js";
 import { Link } from "react-router-dom";
-import { IoCloseOutline, IoMenuOutline  } from "react-icons/io5";
-import { close, hamburger, menu } from "../../assets/icons/index.js";
+// import { IoCloseOutline, IoMenuOutline  } from "react-icons/io5";
+import { close, menu } from "../../assets/icons/index.js";
 
 
 export default function Navbar() {
@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className="w-[4em] overflow-hidden object-cover">
           <img src={logo} alt="image of logo icon" width="100%" height="100%" />
         </div>
-        <p className="text-xl font-semibold">
+        <p className="text-md lg:text-xl font-semibold">
           Zaph
           <br /> <span className="text-green">Tours</span>
         </p>
