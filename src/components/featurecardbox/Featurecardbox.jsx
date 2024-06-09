@@ -7,7 +7,7 @@ export default function Featurecardbox() {
     {features.map((feature, i) => {
       return (
         <div
-          className="w-full lg:w-[30%] h-[60vh] bg-teal pb-2 rounded-xl shadow-xl"
+          className="w-full md:min-w-[30%] md:w-[30%] min-h-[60vh] bg-teal pb-2 rounded-xl shadow-xl"
           key={i}
         >
           <div className="w-full h-[30vh] overflow-hidden object-cover rounded-t-xl">

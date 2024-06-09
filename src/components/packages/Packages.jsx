@@ -7,7 +7,7 @@ export default function Packages() {
     {packages.map((pack, i) => {
       return (
         <div
-          className="w-full lg:w-[30%] min-h-[50vh] h-auto bg-teal pb-2 rounded-xl shadow-xl"
+          className="w-full md:min-w-[30%] md:w-[30%] min-h-[60vh] bg-teal pb-2 rounded-xl shadow-xl"
           key={i}
         >
           <div className="w-full h-[30vh] overflow-hidden object-cover rounded-t-xl">

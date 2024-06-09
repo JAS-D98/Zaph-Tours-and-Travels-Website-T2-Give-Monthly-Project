@@ -75,35 +75,35 @@ export default function LandingPage() {
             </p>
           </div>
           <div className="w-full lg:w-[50%] min-h-[60vh] grid grid-cols-3 gap-2 place-content-center">
-            {/* <div className='bg-black lg:col-span-2 rounded-xl h-[10em] overflow-hidden object-cover'>
-            <img src={cameraLady} alt="" width="100%" height="100%" className='w-full h-full'/>
-          </div> */}
-            <div className="bg-red-400 row-span-1 rounded-xl h-[10em] overflow-hidden col-span-2 lg:col-span-1">
+            <div className="bg-red-400 row-span-1 rounded-xl h-[10em] overflow-hidden col-span-2 ">
               <img
                 src={world1}
-                alt=""
+                alt="image of maldives"
                 width="100%"
                 height="100%"
                 className="w-full h-full"
-              />
+                />
             </div>
             <div className="bg-blue-300 rounded-xl h-[8em] overflow-hidden">
               <img
                 src={world2}
-                alt=""
+                alt="world animation"
                 width="100%"
                 height="100%"
                 className="w-full h-full"
-              />
+                />
             </div>
-            <div className="bg-blue-300 col-span-3 lg:col-span-2 lg:row-span-2 h-[10em] overflow-hidden rounded-xl object-cover">
+            <div className='bg-black col-span-1 rounded-xl h-[10em] overflow-hidden object-cover'>
+                  <img src={cameraLady} alt="woman aking a photo" width="100%" height="100%" className='w-full h-full'/>
+            </div>
+            <div className="bg-blue-300 col-span-2 lg:row-span-2 h-[10em] overflow-hidden rounded-xl object-cover">
               <img
                 src={nature2}
-                alt=""
+                alt="hot air balloons"
                 width="100%"
                 height="100%"
                 className="w-full h-full"
-              />
+                />
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function LandingPage() {
           Unlock the mysteries of areas we've visited. Embark <br />
           on an unforgettable journey
         </p>
-        <div className="flex flex-col lg:flex-row items-center justify-center flex-wrap gap-4 mt-8">
+        <div className="flex flex-col md:flex-row items-center justify-center flex-wrap gap-4 mt-8">
               <Featurecardbox/>
         </div>
       </div>
