@@ -11,6 +11,7 @@ export default function Testimonialcard() {
               <img
                 src={testimonial.touristSiteImg}
                 alt={testimonial.touristAlt}
+                className="w-full h-full"
               />
               <p className="absolute -mt-10 text-xl bg-teal rounded-tr-2xl px-2">
                 {testimonial.touristSite}
