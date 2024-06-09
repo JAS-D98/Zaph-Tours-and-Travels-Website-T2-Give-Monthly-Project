@@ -8,7 +8,7 @@ export default function ContactUsPage() {
     <div className="w-full min-h-[100vh]">
       {/* Start of contacts header section */}
       <div className="w-full min-h-[100vh] flex flex-col items-center justify-center px-5 lg:px-32">
-        <p className="bg-gradient-to-r from-green to-blue-600 bg-clip-text text-transparent text-3xl lg:text-6xl font-bold text-center capitalize mt-[20%] md:mt-[10%]">
+        <p className="bg-gradient-to-r from-green to-blue-600 bg-clip-text text-transparent text-3xl lg:text-6xl font-bold text-center capitalize mt-[20%]">
           How you can Reach out to us.
         </p>
         <p className="text-center mt-4 text-xl fond-bold text-gray-500">
