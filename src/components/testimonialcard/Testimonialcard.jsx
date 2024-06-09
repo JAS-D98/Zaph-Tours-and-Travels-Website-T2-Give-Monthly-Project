@@ -4,9 +4,9 @@ import { testimonials } from "../../constants/Testimonials";
 export default function Testimonialcard() {
   return (
     <>
-      {testimonials.map((testimonial) => {
+      {testimonials.map((testimonial, i) => {
         return (
-          <div className="w-[20em] h-[24em] rounded-xl overflow-hidden shadow-xl">
+          <div className="w-[20em] h-[24em] rounded-xl overflow-hidden shadow-xl" key={i}>
             <div className="w-full h-[25vh] overflow-hidden flex flex-col justify-end">
               <img
                 src={testimonial.touristSiteImg}

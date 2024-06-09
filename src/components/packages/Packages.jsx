@@ -11,7 +11,7 @@ export default function Packages() {
           key={i}
         >
           <div className="w-full h-[30vh] overflow-hidden object-cover rounded-t-xl">
-            <p className="absolute bg-teal px-2 py-1 rounded-br-2xl font-semibold">
+            <p className="absolute bg-teal px-2 py-1 rounded-br-2xl font-semibold capitalize">
               {pack.type}
             </p>
             <img
@@ -31,7 +31,7 @@ export default function Packages() {
             </p>
           </div>
           <div className="px-2 mt-2">
-            <p className="font-bold">Trip Prices</p>
+            <p className="font-bold">Current Price: {pack.price} from <span className='line-through font-normal'>{pack.oldPrice}</span></p>
             <hr />
           </div>
         </div>

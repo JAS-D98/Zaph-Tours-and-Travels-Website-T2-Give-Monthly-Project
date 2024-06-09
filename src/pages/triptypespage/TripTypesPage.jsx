@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./../../components/button/Button";
-import { logo } from './../../assets/index'
+import { arrow, logo } from './../../assets/index'
 import Packages from "../../components/packages/Packages";
 export default function TripTypesPage() {
   return (
@@ -20,7 +20,7 @@ export default function TripTypesPage() {
       {/* End of destination header section */}
 
       {/* Start of Our Packages Section */}
-      <div className="flex flex-col items-center px-5 lh:px-0 justify-center lg:w-[90%] mx-auto">
+      <div className="flex flex-col items-center px-5 lg:px-0 justify-center lg:w-[90%] mx-auto">
         <h1 className="text-xl text-center flex items-center gap-2 mt-8">
           <div className="bg-green h-1 w-[6em] rounded" />{" "}
           <span> Packages We Offer </span>{" "}
@@ -34,6 +34,18 @@ export default function TripTypesPage() {
         </div>
       </div>
       {/* End of Our Packages Section */}
+
+      {/* Start of blog section */}
+      <div className="flex flex-col items-center px-5 lh:px-0 justify-center lg:w-[90%] mx-auto">
+        <h1 className="text-xl text-center flex items-center gap-2 my-8">
+          <div className="bg-green h-1 w-[6em] rounded" />{" "}
+          <span> Read our blogs </span>{" "}
+          <div className="bg-green h-1 w-[6em] rounded" />
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit eos, libero, reiciendis aliquid amet earum culpa molestiae dignissimos incidunt corporis ipsam adipisci veniam sapiente officiis maiores sit doloribus. Magnam dolorum porro tenetur ipsum facilis, ducimus maxime a. Officia, ipsum.</p>
+        <Button title="Read Our Blogs" icon={arrow}/>
+        </div>     
+      {/* End of blog section */}
 
       {/* start of cta section */}
       <div className="w-full flex flex-col lg:flex-row items-center justify-center px-3 pb-8 lg:px-5 bg-gradient-to-r from-green to-blue-500 mt-8 flex-wrap">

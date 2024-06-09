@@ -15,6 +15,7 @@ import {
       description: "Second largest mountain in Africa.",
       linkText: "Read More",
       price: "Kshs 5,000",
+      oldPrice:"Kshs 5,500",
     },
     {
       image: luwenzori,
@@ -23,6 +24,7 @@ import {
       description: "A heritage destination for central Kenya",
       linkText: "Read More",
       price: "Kshs 3,500",
+      oldPrice:"Kshs 4,000",
     },
     {
       image: nature3,
@@ -31,6 +33,7 @@ import {
       description: "One of the worlds largest oceans in the world",
       linkText: "Read More",
       price: "Kshs 5,000",
+      oldPrice:"Kshs 5,400",
     },
     {
       image: nature2,
@@ -39,6 +42,7 @@ import {
       description: "A seamless outdoor exploration and time of fun",
       linkText: "Read More",
       price: "Kshs 2,000",
+      oldPrice:"Kshs 2,600",
     },
     {
       image: Mombasa,
@@ -47,6 +51,7 @@ import {
       description: "The city within an island",
       linkText: "Read More",
       price: "Kshs 1,800",
+      oldPrice:"Kshs 2,000",
     },
     {
       image: lakenakuru,
@@ -55,6 +60,7 @@ import {
       description: "A heritage for Kenya and a home for the worlds Flamingos",
       linkText: "Read More",
       price: "Kshs 4,000",
+      oldPrice:"Kshs 4,500",
     },
     {
       image: lakenakuru,
@@ -63,6 +69,7 @@ import {
       description: "A heritage for Kenya and a home for the worlds Flamingos",
       linkText: "Read More",
       price: "Kshs 4,000",
+      oldPrice:"Kshs 4,200",
     },
     {
       image: lakenakuru,
@@ -71,6 +78,7 @@ import {
       description: "A heritage for Kenya and a home for the worlds Flamingos",
       linkText: "Read More",
       price: "Kshs 4,000",
+      oldPrice:"Kshs 4,300",
     },
     {
       image: lakenakuru,
@@ -79,6 +87,7 @@ import {
       description: "A heritage for Kenya and a home for the worlds Flamingos",
       linkText: "Read More",
       price: "Kshs 4,000",
+      oldPrice:"Kshs 4,400",
     },
     {
       image: lakenakuru,
@@ -87,5 +96,6 @@ import {
       description: "A heritage for Kenya and a home for the worlds Flamingos",
       linkText: "Read More",
       price: "Kshs 4,400",
+      oldPrice:"Kshs 5,000",
     },
   ];
