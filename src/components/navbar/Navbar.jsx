@@ -35,7 +35,7 @@ export default function Navbar() {
       </nav>
         
       <div className="lg:hidden">
-      <img src={isOpen ? close : menu} alt="navigation icons" onClick={toggleNavbar} className="w-7"/>
+      <img src={isOpen ? close : menu} alt="navigation icons" onClick={toggleNavbar} className="w-7 cursor-pointer"/>
       </div>
 
       <nav className={`lg:hidden ${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-white shadow-md px-5`}>
