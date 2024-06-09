@@ -16,8 +16,8 @@ export default function LandingPage() {
   return (
     <>
       {/* Start of Hero Section */}
-      <div className="flex items-center justify-between flex-col-reverse px-5 lg:px-24 w-full min-h-[100vh] lg:flex-row gap-2">
-        <div className="w-full text-center items-center lg:items-start lg:w-1/2 lg:text-start h-full flex flex-col gap-4">
+      <div className="flex items-center justify-between flex-col-reverse px-5 lg:px-24 w-full min-h-[100vh] lg:flex-row gap-2 dark:bg-black">
+        <div className="w-full text-center items-center lg:items-start lg:w-1/2 lg:text-start h-full flex flex-col gap-4 dark:bg-black">
           <div>
             <p className="text-green">Best Safaris and Adventures</p>
             {/* <h1 className=' text-[2em] lg:text-[3em] font-bold capitalize'>It's fun out there, <span className='text-green'>let's go explore</span>. Discover New Places<span className='text-green'> With us</span>.</h1> */}
@@ -25,13 +25,13 @@ export default function LandingPage() {
               It's fun out there, <span>let's go explore</span>. Discover New
               Places<span> With us</span>.
             </h1>
-            <p className=" text-md lg:text-xl">
+            <p className=" text-md lg:text-xl dark:text-slate-500">
               Grab an opportunity to immerse yourself in new cultures. Embark on
               an unforgettable journey.
             </p>
           </div>
           <img src={people} alt="image of tourists" className="w-[25%]" />
-          <p className="font-semibold capitalize">
+          <p className="font-semibold capitalize dark:text-green">
             Join Over 1.6K+ Tourists every Month
           </p>
           <Button title="Start Exploring" icon={arrow} />
@@ -43,8 +43,8 @@ export default function LandingPage() {
       {/* End of Hero Section */}
 
       {/* Start of about Us Section */}
-      <div className="flex flex-col items-center justify-center px-10 mt-[5%] lg:mt-0 lg:w-[90%] mx-auto">
-        <h1 className="text-xl text-center flex items-center gap-2">
+      <div className="flex flex-col items-center justify-center px-10 mt-[5%] lg:mt-0 lg:px-24 mx-auto dark:bg-black">
+        <h1 className="text-xl text-center flex items-center gap-2 text-slate-100">
           <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> About Us </span>{" "}
           <div className="bg-green h-1 w-[3em] rounded" />
@@ -54,7 +54,7 @@ export default function LandingPage() {
             <h1 className="text-green capitalize text-md text-center md:text-left">
               Read Our Amazing Story
             </h1>
-            <p className="leading-1 text-xl mt-6 ">
+            <p className="leading-1 text-xl mt-6 dark:text-slate-500">
               We are more than just a travel company; We are your gateway to
               extarordinary experiences and adventures. With a passion for
               exploration, our dedicated team curates journeys that redefine
@@ -101,13 +101,13 @@ export default function LandingPage() {
       {/* End of about Us Section */}
 
       {/* Start of featured destinations section */}
-      <div className="flex flex-col items-center justify-center px-10 mt-[5%] lg:w-[90%] mx-auto">
-        <h1 className="text-xl text-center flex items-center gap-2">
+      <div className="flex flex-col items-center justify-center px-10 mt-[5%] lg:w-[90%] mx-auto dark:bg-black">
+        <h1 className="text-xl text-center flex items-center gap-2 dark:text-slate-100">
           <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> Featured Destinations </span>{" "}
           <div className="bg-green h-1 w-[3em] rounded" />
         </h1>
-        <p className="mt-4 text-center">
+        <p className="mt-4 text-center dark:text-slate-500">
           Unlock the mysteries of areas we've visited. Embark <br />
           on an unforgettable journey
         </p>
@@ -119,7 +119,7 @@ export default function LandingPage() {
 
       {/* Start of testimonials section */}
       <div className="flex flex-col items-center justify-center px-10 mt-[5%] lg:w-[90%] mx-auto">
-        <h1 className="text-xl text-center flex items-center gap-2">
+        <h1 className="text-xl text-center flex items-center gap-2 dark:text-slate-100">
           <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> Testimonials </span>{" "}
           <div className="bg-green h-1 w-[3em] rounded" />

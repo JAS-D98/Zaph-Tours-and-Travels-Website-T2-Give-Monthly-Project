@@ -6,14 +6,14 @@ export default function Testimonialcard() {
     <>
       {testimonials.map((testimonial, i) => {
         return (
-          <div className="w-[15em] lg:w-[20em] h-[24em] rounded-xl overflow-hidden shadow-xl transition duration-200 ease-out hover:ease-in hover:scale-105" key={i}>
+          <div className="w-[15em] lg:w-[20em] h-[24em] rounded-xl overflow-hidden shadow-xl transition duration-200 ease-out hover:ease-in hover:scale-105 dark:text-slate-500 dark:shadow-slate-800" key={i}>
             <div className="w-full h-[25vh] overflow-hidden flex flex-col justify-end">
               <img
                 src={testimonial.touristSiteImg}
                 alt={testimonial.touristAlt}
                 className="w-full h-full"
               />
-              <p className="absolute -mt-10 text-xl bg-teal rounded-tr-2xl px-2">
+              <p className="absolute -mt-10 text-xl bg-teal dark:text-black rounded-tr-2xl px-2">
                 {testimonial.touristSite}
               </p>
             </div>

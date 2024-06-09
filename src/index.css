@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* :root{
+  background: #000;
+} */
 .hero-pattern {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../src/assets/map.png");

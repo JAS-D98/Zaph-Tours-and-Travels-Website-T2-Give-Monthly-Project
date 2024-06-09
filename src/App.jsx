@@ -9,7 +9,7 @@ import PageNotFound from "./pages/pagenotfound/PageNotFound";
 
 export default function App() {
   return (
-    <>
+    <div className="bg-white dark:bg-black">
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -21,6 +21,6 @@ export default function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </>
+    </div>
   );
 }
