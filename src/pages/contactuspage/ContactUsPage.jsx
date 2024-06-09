@@ -1,13 +1,14 @@
 import React from "react";
 import { ContactLordIcons, socialMedia } from "../../constants/Contact";
 import Button from "../../components/button/Button";
+import { logo } from "../../assets";
 
 export default function ContactUsPage() {
   return (
     <div className="w-full min-h-[100vh]">
       {/* Start of contacts header section */}
       <div className="w-full min-h-[100vh] flex flex-col items-center justify-center px-5 lg:px-32">
-        <p className="bg-gradient-to-r from-green to-blue-600 bg-clip-text text-transparent text-3xl lg:text-6xl font-bold text-center capitalize">
+        <p className="bg-gradient-to-r from-green to-blue-600 bg-clip-text text-transparent text-3xl lg:text-6xl font-bold text-center capitalize mt-[20%] md:mt-[10%]">
           How you can Reach out to us.
         </p>
         <p className="text-center mt-4 text-xl fond-bold text-gray-500">
@@ -15,9 +16,9 @@ export default function ContactUsPage() {
           may need.
         </p>
 
-        <div className="w-full flex flex-col justify-center items-center mt-5">
-          <p className="text-gray-500 text-xl my-4">Follow us on</p>
-          <div className="flex lg:items-center justify-center flex-wrap gap-4 mt-6 flex-col md:flex-row items-start">
+        <div className="w-full flex flex-col justify-center items-center mt-3">
+          <p className="text-gray-500 text-xl mt-2 mb-1">Follow us on</p>
+          <div className="flex lg:items-center justify-center flex-wrap gap-4 mt-4 flex-col md:flex-row items-start">
             {socialMedia.map((media, i) => {
               return (
                 <div className="flex items-center gap-4">
@@ -34,6 +35,7 @@ export default function ContactUsPage() {
               );
             })}
           </div>
+          <img src={logo} alt="image of logo" />
         </div>
       </div>
 
