@@ -10,5 +10,9 @@ export const socialMedia = [
 export const ContactLordIcons = [
   { src: Phone, alt: "Walkie Tokie", text: "+254 890 000" },
   { src: Mail, alt: "Mail", text: "zaphtours@tourists.com" },
-  { src: Location, alt: "Location", text: "LHJ Plaza, 1st floor Murang'a Town" },
+  {
+    src: Location,
+    alt: "Location",
+    text: "LHJ Plaza, 1st floor Murang'a Town",
+  },
 ];
