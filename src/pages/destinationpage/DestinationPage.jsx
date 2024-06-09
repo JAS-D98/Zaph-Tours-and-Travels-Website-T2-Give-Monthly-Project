@@ -8,7 +8,7 @@ export default function DestinationPage() {
     <div className="w-full min-h-[100vh]">
       {/* Start of destination header section */}
       <div className="w-full h-[100vh] flex flex-col items-center justify-center px-5 lg:px-32">
-        <p className="bg-gradient-to-r from-green to-blue-600 bg-clip-text text-transparent text-3xl lg:text-6xl font-bold text-center capitalize">
+        <p className="bg-gradient-to-r from-green to-blue-600 bg-clip-text text-transparent text-3xl lg:text-6xl font-bold text-center capitalize  mt-[10%] lg:mt-0">
           View Our Diverse Destinations and Grab a chance to visit any place at
           a discounted price just for you.
         </p>
