@@ -1,4 +1,11 @@
 # T2G Month 1 Project
+Below is a Project built on React and Tailwind Techstack. The website provides both light and dark mode features based on the set theme.   
+
+## Light Theme
+![Light theme hero section photo](./src/assets/zaphlight.png)
+
+## Dark Theme
+![Light theme hero section photo](./src/assets/zaphdark.png)
 
 # Zaph Tours
 
