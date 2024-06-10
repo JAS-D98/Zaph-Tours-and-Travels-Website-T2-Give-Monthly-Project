@@ -126,7 +126,7 @@ export default function LandingPage() {
           <span> Testimonials </span>{" "}
           <div className="bg-green h-1 w-[3em] rounded" />
         </h1>
-        <p className="mt-4 text-center">
+        <p className="mt-4 text-center dark:text-slate-500">
           We take pride in providing exceptional travel experiences. Don't Just
           take our word for it but <br /> hear from our satisfied customers.
         </p>
