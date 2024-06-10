@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./../../components/button/Button";
-import { arrow, logo } from './../../assets/index'
+import { arrow, logo, logoclear } from './../../assets/index'
 import Packages from "../../components/packages/Packages";
 export default function TripTypesPage() {
   return (
@@ -15,7 +15,8 @@ export default function TripTypesPage() {
           We provide the very best packages for individuals as well as those who
           wish to travel with their families.
         </p>
-        <img src={logo} alt="image of logo" />
+        <img src={logo} alt="image of logo" className="dark:hidden"/>
+        <img src={logoclear} alt="image of logo" className="hidden dark:flex"/>
       </div>
       {/* End of destination header section */}
 
