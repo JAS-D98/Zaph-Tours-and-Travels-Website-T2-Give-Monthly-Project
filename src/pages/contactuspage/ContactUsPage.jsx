@@ -1,7 +1,7 @@
 import React from "react";
 import { ContactLordIcons, socialMedia } from "../../constants/Contact";
 import Button from "../../components/button/Button";
-import { logo } from "../../assets";
+import { logo, logoclear } from "../../assets";
 
 export default function ContactUsPage() {
   return (
@@ -35,7 +35,8 @@ export default function ContactUsPage() {
               );
             })}
           </div>
-          <img src={logo} alt="image of logo" />
+          <img src={logo} alt="image of logo" className="dark:hidden"/>
+          <img src={logoclear} alt="image of logo" className="hidden dark:flex"/>
         </div>
       </div>
 

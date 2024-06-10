@@ -7,6 +7,7 @@ import {
   cameraLady,
   nature2,
   hero,
+  heroclear,
 } from "../../assets/index.js";
 import Button from "../../components/button/Button.jsx";
 import Featurecardbox from "../../components/featurecardbox/Featurecardbox.jsx";
@@ -37,14 +38,15 @@ export default function LandingPage() {
           <Button title="Start Exploring" icon={arrow} />
         </div>
         <div className="mt-20 w-[40%] lg:mt-0 md:w-[40%] flex flex-col items-center justify-center hero-bg rounded-xl">
-          <img src={hero} alt="image of a lady with a bag" className="w-full h-full"/>
+          <img src={hero} alt="image of a lady with a bag" className="w-full h-full dark:hidden"/>
+          <img src={heroclear} alt="image of a lady with a bag" className="w-full h-full hidden dark:flex"/>
         </div>
       </div>
       {/* End of Hero Section */}
 
       {/* Start of about Us Section */}
       <div className="flex flex-col items-center justify-center px-10 mt-[5%] lg:mt-0 lg:px-24 mx-auto dark:bg-black">
-        <h1 className="text-xl text-center flex items-center gap-2 text-slate-100">
+        <h1 className="text-xl text-center flex items-center gap-2 dark:text-slate-100">
           <div className="bg-green h-1 w-[3em] rounded" />{" "}
           <span> About Us </span>{" "}
           <div className="bg-green h-1 w-[3em] rounded" />

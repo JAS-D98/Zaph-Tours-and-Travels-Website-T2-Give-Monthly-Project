@@ -36,6 +36,8 @@ import beach from "./beach.png";
 import wellness from "./wellness.png";
 import luxurytours from "./luxurytours.png";
 import close from "./close.svg";
+import heroclear from "./Hero-clear.png";
+import logoclear from "./logo-clear.png";
 
 
 
@@ -78,4 +80,6 @@ export {
   beach,
   wellness,
   close,
+  heroclear,
+  logoclear,
 };

@@ -1,11 +1,11 @@
 import React from "react";
 import { footerLinks } from "../../constants/Footer";
 import { socialMedia } from "../../constants/Contact";
-import { footerlogo } from "../../assets";
+import { footerlogo, logoclear } from "../../assets";
 
 export default function Footer() {
   return (
-    <footer className="p-8 bg-footer text-white mt-16">
+    <footer className="p-8 bg-footer text-white mt-16 dark:bg-black">
       <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
           <a href="/">
@@ -14,7 +14,14 @@ export default function Footer() {
               alt="logo"
               width={150}
               height={46}
-              className="m-0"
+              className="m-0 dark:hidden"
+            />
+            <img
+              src={logoclear}
+              alt="logo"
+              width={150}
+              height={46}
+              className="m-0 hidden dark:flex"
             />
           </a>
           <p className="text-xl font-bold mt-3">
