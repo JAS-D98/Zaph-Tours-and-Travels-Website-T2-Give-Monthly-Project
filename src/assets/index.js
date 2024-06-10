@@ -38,6 +38,7 @@ import luxurytours from "./luxurytours.png";
 import close from "./close.svg";
 import heroclear from "./Hero-clear.png";
 import logoclear from "./logo-clear.png";
+import directionclear from "./directionclear.png";
 
 
 
@@ -82,4 +83,5 @@ export {
   close,
   heroclear,
   logoclear,
+  directionclear,
 };
